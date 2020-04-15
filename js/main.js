@@ -5,7 +5,7 @@ let formName = document.querySelector('#form-name'), //name
     formModalName = document.querySelector('.form-modal-text'), //modalParagraphUser
     closeBtn = document.querySelector('#btnClose'); //closeButton
 
-// Заготовочка под информацию (userInfo.name.value - к примеру)
+// Заготовочка под информационный блок (userInfo.name.value - к примеру)
 // let userInfo = {
 //     name: document.querySelector('#form-name'),
 //     phone: document.querySelector('#form-phone')
