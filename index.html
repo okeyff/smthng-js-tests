@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="form">
+            <div class="form-head">
+                <div class="form-title">
+                    <i class="fas fa-envelope-open-text"></i>
+                    <p>Обратная связь</p>
+                </div>
+                <div class="form-button-close">
+                    <button id="btnClose">x</button>
+                </div>
+            </div>
+            <div class="form-text">
+                <p>Пожалуйста, заполните все поля для корректной обработки данных.</p>
+            </div>
+            <div class="form-inputs">
+                <i class="fas fa-user" aria-hidden="true"></i>
+                <input type="text" id="form-name" required placeholder="Ваше Имя">
+                <i class="fas fa-phone" aria-hidden="true"></i>
+                <input type="phone" id="form-phone" required placeholder="Ваш номер телефона">
+                <i class="fas fa-at" aria-hidde="true"></i>
+                <input type="email" id="form-email" required placeholder="Ваш Email">
+            </div>
+            <button id="form-button">Отправить</button>
+            <div class="form-modal">
+                <p class="form-modal-text"></p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
