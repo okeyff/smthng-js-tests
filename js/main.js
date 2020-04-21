@@ -1,14 +1,14 @@
-let formName = document.querySelector('#form-name'), //name
-    formEmail = document.querySelector('#form-email'), //email
-    formPhone = document.querySelector('#form-phone'), //phone
-    formBtn = document.querySelector('#form-button'), //button
+let formName = document.getElementById('#form-name'), //name
+    formEmail = document.getElementById('#form-email'), //email
+    formPhone = document.getElementById '#form-phone'), //phone
+formBtn = document.getElementById('#form-button'), //button
     formModalName = document.querySelector('.form-modal-text'), //modalParagraphUser
-    closeBtn = document.querySelector('#btnClose'); //closeButton
+    closeBtn = document.getElementById('#btnClose'); //closeButton
 
 // Заготовочка под информационный блок (userInfo.name.value - к примеру)
 // let userInfo = {
-//     name: document.querySelector('#form-name'),
-//     phone: document.querySelector('#form-phone')
+//     name: document.getElementById('#form-name'),
+//     phone: document.getElementById('#form-phone')
 // } 
 
 formBtn.onclick = function() {
